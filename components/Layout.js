@@ -12,7 +12,7 @@ const Layout = ({title,keywords,desciption,children}) => {
         <div>
             <Head>
                 <title>{title}</title>
-                <meta name="description" content={desciption} />
+                <meta name="description"   content={desciption} />
                 <meta name="keywords" content={keywords} />
             </Head>
 
@@ -32,7 +32,7 @@ const Layout = ({title,keywords,desciption,children}) => {
 }
 
 Layout.defaultProps = {
-    title: 'Dj Evenents | search for what you want' ,
+    title: 'Dj Evenents | search for what you want ;)' ,
     desciption: 'find all the leatest art that maybe you will like ',
     keywords:'music , events , dj'
 

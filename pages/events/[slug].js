@@ -1,10 +1,10 @@
-import React from 'react';
+import Layout from '../../components/Layout'
 
 const slug = () => {
     return (
-        <div>
+        <Layout>
             <h1>dynamic route</h1>
-        </div>
+        </Layout>
     );
 }
 
